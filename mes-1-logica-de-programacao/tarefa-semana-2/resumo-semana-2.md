@@ -49,3 +49,5 @@ Para saber mais, acesse:
 
 - [if/else](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else)
 - [operador condicional ternário](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
+ - Realizando teste de alteração de arquivo, para teste de commit semana-2

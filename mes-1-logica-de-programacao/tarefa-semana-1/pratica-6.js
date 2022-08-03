@@ -29,4 +29,5 @@ console.log(resultado6);
 console.log(resultado7);
 console.log(resultado8);
 console.log(resultado9);
-console.log(resultado10);  
+console.log(resultado10);
+
