@@ -7,8 +7,8 @@ possamos ajudar.*/
 function digaOla(nome) {
 
     console.log("Olá ," + nome)
-}
 
+}
 const nomeDoProduto = "Fone de Ouvido"
 let EnderecoDeEntrega = "Av. Eduardo Ribeiro nº 20 - Centro - Manaus-AM"
 let NomeDaPessoaQueRecebeuOProduto = "Maria Expedita"
@@ -20,4 +20,3 @@ com sucesso!`)
 console.log(`O seu produto foi recebido por: ${NomeDaPessoaQueRecebeuOProduto} Esperamos que você 
 esteja contente com o produto. Caso contrário, fale conosco em até 7 dias para que 
 possamos ajudar.`)
-
