@@ -1,5 +1,5 @@
-let calculaDesconto = function (valorProduto, desconto) {
-    let valorDesconto = valorProduto * desconto / 100;
+let calculaDesconto = function (valorDoProduto, desconto) {
+    let valorDesconto = valorDoProduto * desconto / 100;
     let totalMenosDesconto = valorProduto - valorDesconto;
     return totalMenosDesconto
 
