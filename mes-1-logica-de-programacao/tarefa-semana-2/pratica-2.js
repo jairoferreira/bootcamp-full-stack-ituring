@@ -1,6 +1,6 @@
 
 function saudacao(nome) {
-    
+
     console.log(`Olá, ${nome}!`)
 }
 
@@ -14,7 +14,7 @@ Esperamos que você esteja contente com o produto. Caso contrário, fale conosco
 }
 
 function agradecimento(nomedoRemetente) {
-       console.log(`Atenciosamente, ${nomedoRemetente}`)
+    console.log(`Atenciosamente, ${nomedoRemetente}`)
 }
 
 saudacao("Jairo")
