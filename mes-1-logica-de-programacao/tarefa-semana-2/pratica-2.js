@@ -1,14 +1,10 @@
-let nomeDoProduto ="Phone de Ouvido"
-let enderecoDestinatario = "Av. Eduardo Ribeiro"
-let recebedorDoProduto = "Maria Fernanda"
-let nomedoRemetente = "Antonio José"
 
-function digaOla(nome) {
+function saudacao(nome) {
     
-    console.log(`Olá,` + nome)
+    console.log(`Olá, ${nome}!`)
 }
 
-function corpo(nomeDoProduto, recebedorDoProduto, enderecoDestinatario) {
+function mensagem(nomeDoProduto, recebedorDoProduto, enderecoDestinatario) {
     const mensagem = `Fizemos a entrega do produto ${nomeDoProduto} no endereço ${enderecoDestinatario} com sucesso!
 
 O seu produto foi redebido por: ${recebedorDoProduto}
@@ -21,6 +17,6 @@ function agradecimento(nomedoRemetente) {
        console.log(`Atenciosamente, ${nomedoRemetente}`)
 }
 
-digaOla("Jairo")
-corpo(nomeDoProduto, recebedorDoProduto, enderecoDestinatario)
-agradecimento(nomedoRemetente)
+saudacao("Jairo")
+mensagem("Phone de Ouvido", "Maria Fernanda", "Av. Eduardo Ribeiro")
+agradecimento("amazon@amazon.com")
