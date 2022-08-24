@@ -7,11 +7,16 @@ Dado de entrada da função:
 */
 
 
-function calculaSaldoFinal(){
-    let depositos = [100, -20, -30, 10, -7, -21, -5]
-    console.log(depositos)
-    console.log("O saldo final de sua conta foi positivo no valor de R$ 27.")
+function calcularSaldo(transacoes) {
+    let saldo = 0
 
+  transacoes.forEach(function(transacao) {
+      saldo = saldo + transacao
+  })
+
+  console.log(`O saldo final de sua conta foi positivo no valor de R$ ${saldo}.`)
 }
 
-calculaSaldoFinal()
+const minhasTransacoes = [100, -20, -30, 10, -7, -21, -5]
+
+calcularSaldo(minhasTransacoes)
