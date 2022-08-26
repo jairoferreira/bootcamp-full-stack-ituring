@@ -5,9 +5,8 @@ Agora, altere o código da solução e utilize o método .filter.
 */
 
 let listaDeSeriados = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"]
-function seriadoComTh(seriados, searchText) {
-    return seriados.filter(function (item) {
-        return item.toLowerCase().indexOf(searchText.toLowerCase()) !== -1
-    });
-}
-console.log(seriadoComTh(listaDeSeriados, "Th"))
+let seriadoComTh = listaDeSeriados.filter(function (seriado) {
+    return seriado.includes("Th")
+})
+
+console.log(seriadoComTh)
