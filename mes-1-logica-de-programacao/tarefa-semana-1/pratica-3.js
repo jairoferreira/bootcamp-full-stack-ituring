@@ -1,11 +1,11 @@
-const nome = new Boolean('jairo');
-const email = new Boolean('jf.jairo@gmail.com');
-const profissao = new Boolean('Consultor de T.I');
-const idade = new Boolean();
-const viagemDosSonhos = new Boolean('Philippines');
+const nome = 'jairo'
+const email = 'jf.jairo@gmail.com'
+const profissao = 'Consultor de T.I'
+const idade = 39
+const viagemDosSonhos = 'Philippines'
 
-console.log(nome.valueOf());
-console.log(email.valueOf());
-console.log(profissao.valueOf());
-console.log(idade.valueOf());
-console.log(viagemDosSonhos.valueOf());
+console.log(typeof nome === "string")
+console.log(typeof email === "string")
+console.log(typeof profissao === "string")
+console.log(typeof idade === "string")
+console.log(typeof viagemDosSonhos === "string")
