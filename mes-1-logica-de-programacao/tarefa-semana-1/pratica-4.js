@@ -1,7 +1,6 @@
 //Converter MILHAS em KILOMETROMES
-let milhas = 238900
-let km = 160934
-let KILOMETROMES = milhas / km
-let resultado = KILOMETROMES
+const milhasParaKM = 160934
+const distanciaTerraLuaEmMilhas = 238900
+const distanciaTerraLuaEmKM = 238900 *milhasParaKM
 
-console.log(resultado);
+console.log(distanciaTerraLuaEmKM);
