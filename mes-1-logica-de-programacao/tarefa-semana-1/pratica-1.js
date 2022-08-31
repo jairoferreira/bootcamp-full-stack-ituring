@@ -1,8 +1,8 @@
-let nome = "Jairo"
-let email = "jf.jairo@gmail.com"
-let profissao = "Consultor de T.I"
-let idade = 39
-let viagemDosSonhos = "Philippines"
+const nome = "Jairo"
+const email = "jf.jairo@gmail.com"
+const profissao = "Consultor de T.I"
+const idade = 39
+const viagemDosSonhos = "Philippines"
 
 console.log(nome);
 console.log(email);
