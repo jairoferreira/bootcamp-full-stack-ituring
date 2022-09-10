@@ -1,20 +1,31 @@
-function criarUsuario(nome, idade, cidade, livrosPreferidos) {
-    let objeto = {}
+let exibeFilmeMelhorAvaliado = listaFilmes => {
+    listaFilmes.sort((filmeAnterior, filmeAtual) => filmeAtual - filmeAnterior)
 
-    objeto.nome = nome
-    objeto.idade = idade
-    objeto.cidade = cidade
-    objeto.livrosPreferidos = livrosPreferidos
-    objeto.maiorDeIdade = idade > 18 ? true : false
-
-    objeto.seApresentar = function () {
-        return `Oi, meu nome é ${this.nome} e tenho ${this.idade} anos.`
-
-    }
-    return objeto
+    const filmeMelhorNota = listaFilmes[0]
+    
+    console.log(`O filme de melhor avaliação com nota ${filmeMelhorNota.notaAvaliacao} é: ${filmeMelhorNota.titulo}.`)
 }
 
-let usuarioJairo = criarUsuario("Jairo", 39, "Manaus", "50 Tips JavaScrip")
-let usuarioIngrid = criarUsuario("Ingrid", 37, "Manaus", "Acumpuntura - Direto ao Ponto")
-console.log(usuarioJairo.seApresentar())
-console.log(usuarioIngrid.seApresentar())
+/* TESTANDO A SOLUÇÃO */
+const listaFilmes = [{
+    titulo: "Um Sonho de Liberdade",
+    notaAvaliacao: 9.2,
+    duracao: 142,
+    anoPublicacao: 1994,
+    categoria: "Drama"
+  },
+  {
+    titulo: "Clube da Luta",
+    notaAvaliacao: 8.7,
+    duracao: 139,
+    anoPublicacao: 1999,
+    categoria: "Drama"
+  },
+  {
+    titulo: "Toy Story 3",
+    notaAvaliacao: 8.3,
+    duracao: 103,
+    anoPublicacao: 2010,
+    categoria: "Animação"
+}]
+exibeFilmeMelhorAvaliado(listaFilmes)
