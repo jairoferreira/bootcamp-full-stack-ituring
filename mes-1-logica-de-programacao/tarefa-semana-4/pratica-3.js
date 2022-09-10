@@ -4,9 +4,9 @@
 Agora, altere o código da solução e utilize o método .filter.
 */
 
-let listaDeSeriados = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"]
-let seriadoComTh = listaDeSeriados.filter(function (seriado) {
-    return seriado.includes("Th")
-})
+let filtraLista = (lista, valor) => {
+    return lista.filter(valorAtual => valorAtual.includes(valor))
+}
 
-console.log(seriadoComTh)
+const listaSeriados = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"]
+console.log(filtraLista(listaSeriados, "Th"))

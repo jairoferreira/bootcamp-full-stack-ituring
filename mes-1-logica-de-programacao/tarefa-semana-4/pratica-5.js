@@ -20,3 +20,35 @@ console.log(numerosOrdemCrescente);
 const numerosCrescentes = [4, 9, 7, 1, 8, 12]
 numerosCrescentes.sort((a, b) => a - b)
 console.log(numerosCrescentes)
+
+
+//solucao da Ituring
+
+/* SOLUÇÃO 1 (Mais difícil a leitura e entendimento) */
+let ordenaCrescenteS1 = lista => {
+  return lista.sort((valorAnterior, valorAtual) => {
+      return valorAnterior - valorAtual
+  })
+}
+
+/* SOLUÇÃO 2 (Igual a anterior, mas super enxuta) */
+let ordenaCrescenteS2 = lista => lista.sort((a, b) => a - b)
+
+/* SOLUÇÃO 3 (Melhor leitura) */
+let ordenaCrescenteS3 = lista => {
+  return lista.sort((valorAnterior, valorAtual) => {
+      if (valorAnterior < valorAtual)
+          return -1
+      if (valorAnterior > valorAtual)
+          return 1
+      return 0
+  })
+}
+
+/* TESTANDO AS SOLUÇÕES */
+let listaNumeros = [4, 9, 7, 1, 8, 12]
+console.log(ordenaCrescenteS1(listaNumeros))
+listaNumeros = [4, 9, 7, 1, 8, 12]
+console.log(ordenaCrescenteS2(listaNumeros))
+listaNumeros = [4, 9, 7, 1, 8, 12]
+console.log(ordenaCrescenteS3(listaNumeros))

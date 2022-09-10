@@ -8,16 +8,18 @@ console.log(index);
 console.log(seriados[index]);
 */
 
-function encontrar(array, nome) {
-  let indiceEncontrado = undefined
+let procuraItemEmLista = (lista, valor) => {
+  let indiceValorEncontrado = undefined
 
-  array.forEach(function (item, index) {
-    if (item === nome) {
-      indiceEncontrado = index
-    }
+  // Obs: o lado ruim do forEach é que não tem como usar o comando `return` pra retornar o índice encontrado. Ou seja, você vai sempre precisar varrer toda a lista, o que é menos eficiente.
+  lista.forEach((valorAtual, indice) => {
+      if (valorAtual === valor)
+          indiceValorEncontrado = indice
   })
- // return indiceEncontrado
+
+  return indiceValorEncontrado
 }
 
-console.log(encontrar["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"],
-"Dexter")
+const listaSeriados = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"]
+console.log(procuraItemEmLista(listaSeriados, "Game of Thrones"))
+console.log(procuraItemEmLista(listaSeriados, "Friends"))
