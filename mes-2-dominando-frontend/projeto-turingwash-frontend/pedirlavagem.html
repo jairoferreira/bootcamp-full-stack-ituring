@@ -6,42 +6,86 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pedir Lavagem</title>
+
+  <style>
+    .card {
+      background-color: #BCF7FF;
+    }
+
+    .card_image {}
+
+    .card__nav {
+      float: right;
+      list-style: none;
+      display: flex;
+      gap: 5px;
+      justify-content: left;
+
+    }
+
+    .card__menu {}
+
+    .card__menu--li {
+      list-style-type: none;
+      color: black;
+      font-size: 14px;
+      display: inline;
+      padding: 10px;
+    }
+
+    .card__menu--li:hover {
+      background-color: aqua;
+    }
+
+    .card__btn {
+      border: none;
+      color: black;
+      font-size: 14px;
+      display: inline;
+      border: 0px;
+      outline: 0;
+      background-color: var(--btnBG);
+    }
+
+    .card__btn:hover {
+      background-color: aqua;
+    }
+
+    .main__title {
+      background-color: #EAF7FF;
+    }
+
+    .Main__title--h1 {
+      text-align: center;
+      font-size: 16px;
+    }
+  </style>
+
 </head>
 
-<style>
-  .header {
-    background-color: #BCF7FF;
-  }
-
-  .nav {
-    float: right;
-  }
-
-  .main-content {
-    background-color: #EAF7FF;
-  }
-</style>
-
 <body>
-  <header class="header">
-    <img src="./img/turingwash-logo.svg" alt="Logo Turing Wash" />
-    <nav class="nav">
-      <ul>
-        <li>Meus Carros</li>
-        <li>Minhas Lavagens</li>
+  <header class="card">
+    <img src="./img/turingwash-logo.svg" alt="Logo Turing Wash" class="card__image" />
+    <nav class="card__nav">
+      <ul class="card__menu">
+        <li class="card__menu--li">
+          <a>Meus Carros</a>
+        </li>
+        <li class="card__menu--li">Minhas Lavagens</li>
+        <button class="card__btn">Sair</button>
       </ul>
-      <button type="button">Sair</button>
     </nav>
   </header>
 
 
-  <main class="main-content>
-    <h1 class=" h1">Lavadores disponiveis proximos de você...</h1>
+  <main class="main__title">
+    <h1 class="Main__title--h1">Lavadores disponiveis proximos de você...</h1>
 
     <div>
       <p>Lavar <u>Nissan Kicks</u></p>
       <button>Ordenar por <u>proximidade</u></button>
     </div>
+
     <ul>
       <li>
         <img src="" alt="" />
@@ -118,7 +162,7 @@
   </main>
 
   <footer>
-    <img src="./img/turingwash-logo.svg" alt="Logo Turing Wash" />
+    <img src=" ./img/turingwash-logo.svg" alt="Logo Turing Wash" />
 
     <nav>
       <ul>
