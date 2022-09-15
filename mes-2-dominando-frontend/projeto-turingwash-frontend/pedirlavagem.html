@@ -8,6 +8,14 @@
   <title>Pedir Lavagem</title>
 
   <style>
+    .body {
+      margin: 0px;
+    }
+
+    .main__title {
+      background-color: #EAF7FF;
+    }
+
     .card__header {
       background-color: #BCF7FF;
       display: flex;
@@ -22,7 +30,7 @@
       display: inline-block;
     }
 
-    .card__menu--li {
+    .card__menu_li {
       list-style-type: none;
       color: black;
       font-size: 14px;
@@ -30,7 +38,7 @@
       padding: 10px;
     }
 
-    .card__menu--li:hover {
+    .card__menu_li:hover {
       background-color: aqua;
     }
 
@@ -48,31 +56,38 @@
       background-color: aqua;
     }
 
-    .main__title {
-      background-color: #EAF7FF;
-    }
-
-    .Main__title--h1 {
+    .main__title_h1 {
       text-align: center;
       font-size: 16px;
       margin: 0px;
     }
 
-    .body {
-      margin: 0px;
+    .main__1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      outline: 0px;
+      border: none;
+      background-color: var(--btnBG)
     }
 
-    .main__content {
-      display: inline-flex;
-      align-items: baseline;
+    .btn-1 {
+      background-color: transparent;
+      border: 0;
+      cursor: pointer;
     }
 
-    .main__content--button {
-      padding: 0;
-      border-style: none;
-      list-style: none;
-      background-color: #EAF7FF;
+    .image_picture {
+      width: 55px;
+      height: 55px;
+      top: -91px;
+      left: -7px;
+      
+    }
 
+    .header_ava {
+      display: inline-block;
+      
 
     }
   </style>
@@ -84,10 +99,10 @@
     <img src="./img/turingwash-logo.svg" alt="Logo Turing Wash" class="card__image" />
     <nav class="card__nav">
       <ul>
-        <li class="card__menu--li">
+        <li class="card__menu_li">
           <a>Meus Carros</a>
         </li>
-        <li class="card__menu--li">Minhas Lavagens</li>
+        <li class="card__menu_li">Minhas Lavagens</li>
         <button class="card__btn">Sair</button>
       </ul>
     </nav>
@@ -95,19 +110,19 @@
 
 
   <main class="main__title">
-    <h1 class="Main__title--h1">Lavadores disponiveis proximos de você...</h1>
+    <h1 class="main__title_h1">Lavadores disponiveis proximos de você...</h1>
 
-    <div class="main__content">
-      <p class="main_content--text">Lavar <u>Nissan Kicks</u></p>
-      <button class="main__content--button">Ordenar por <u>proximidade</u></button>
+    <div class="main__1">
+      <p>Lavar <u>Nissan Kicks</u></p>
+      <button class="btn-1">Ordenar por <u>proximidade</u></button>
     </div>
 
     <ul>
       <li>
-        <img src="" alt="" />
 
         <div>
-          <header>
+          <img class="image_picture" src="./img/profile.png" alt="Profile Picture" />
+          <header class="header_ava">
             <h2>João Pereira</h2>
 
             <b> 4.5 (998 avaliações)</b>
