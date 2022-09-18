@@ -1,12 +1,15 @@
-.nav{
+.nav {
     display: flex;
-    align-items: center;
-    
+    justify-content: flex-end;
+    font-size: 16px;
+    padding: 15px 15px
+
 }
 
-.nav__list {
-display: flex;
-justify-content: space-around;
-list-style: none;
-
+.nav__list_item {
+    display: inline-block;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+       
 }

@@ -1,9 +1,8 @@
-.button {
-    background-color: var(--header-footer);
+button {
+    list-style-type: none;
     border: none;
     padding: 0px;
-    text-align: right;
-    text-decoration: none;
     cursor: pointer;
+       
 
 }
