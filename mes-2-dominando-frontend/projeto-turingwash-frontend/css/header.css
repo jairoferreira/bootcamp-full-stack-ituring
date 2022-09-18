@@ -1,6 +1,8 @@
 .header {
-   
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background: #BCF7FF;
+    padding: 0px;
 
 }
-
-.nav__list_logo {}
