@@ -1,0 +1,9 @@
+.button {
+    background-color: var(--header-footer);
+    border: none;
+    padding: 0px;
+    text-align: right;
+    text-decoration: none;
+    cursor: pointer;
+
+}

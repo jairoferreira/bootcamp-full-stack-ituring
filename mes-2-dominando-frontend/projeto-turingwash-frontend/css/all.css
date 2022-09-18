@@ -1,0 +1,15 @@
+@import url("./normalize.css");
+@import url("./header.css");
+@import url("./navigation.css");
+@import url("./buttons.css");
+
+
+:root {
+    --header-footer: #BCF7FF;
+    --fundo: #EAF7FF;
+    --branco: #fff;
+    --botao-fundo: #8FF2FF;
+
+
+}
+

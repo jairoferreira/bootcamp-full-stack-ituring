@@ -1,0 +1,11 @@
+.navigation {
+    display: flex;
+    align-items: stretch ;
+    justify-content: flex-end;
+    list-style: none; /* este comando tira as bolinhas da lista*/
+    margin: 0;
+    background: #BCF7FF;
+    padding: 25px;
+
+}
+
