@@ -1,11 +1,8 @@
-.navigation {
-    display: flex;
-    align-items: stretch ;
-    justify-content: flex-end;
-    list-style: none; /* este comando tira as bolinhas da lista*/
+.nav {
+    display: inline-block;
+    list-style: none;
     margin: 0;
     background: #BCF7FF;
     padding: 25px;
 
 }
-
