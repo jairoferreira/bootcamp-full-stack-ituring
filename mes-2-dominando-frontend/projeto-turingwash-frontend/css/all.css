@@ -1,7 +1,4 @@
-@import url("./normalize.css");
-@import url("./header.css");
 @import url("./navigation.css");
-@import url("./buttons.css");
 
 * {
     box-sizing: border-box;

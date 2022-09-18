@@ -1,15 +1,19 @@
-.nav {
+.navbar {
+    background-color: aqua;
+    color: black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
     font-size: 16px;
-    padding: 15px 15px
-
+    
 }
 
-.nav__list_item {
+.nav__list{
+    list-style-type: none;
+}
+.nav__list .__list_item {
     display: inline-block;
-    list-style: none;
-    color: black;
+    padding: 20px 10px;
     text-decoration: none;
        
 }
