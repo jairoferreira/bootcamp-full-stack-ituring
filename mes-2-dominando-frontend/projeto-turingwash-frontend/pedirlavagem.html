@@ -6,109 +6,98 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pedir Lavagem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/all.css">
 </head>
 
 <body>
-  <nav class="navbar">
-    <div>
-      <img src="./img/turingwash-logo.svg" alt="Logo Turing Wash" />
-    </div>
+  <header>
+    <img src="./img/turingwash-logo.svg" alt="Logo Turing Wash">
+    <nav>
+      <ul class="nav__list">
+        <li class="list_item">Meus Carros</li>
+        <li class="list_item">Minhas Lavagens</li>
+        <li class="list_item"><button class="botao">Sair</button></li>
+      </ul>
+    </nav>
 
-    <ul class="nav__list">
-      <li class="list_item">Meus Carros</li>
-      <li class="list_item">Minhas Lavagens</li>
-      <li class="list_item"><button>Sair</button></li>
-    </ul>
-  </nav>
-
-
+  </header>
   <main>
-    <h1>Lavadores disponiveis proximos de você...</h1>
-
-    <div>
+    <div class="main__item_1">
+      <h1>Lavadores disponiveis proximos de você...</h1>
+    </div>
+    <div class="main__item_2">
       <p>Lavar <u>Nissan Kicks</u></p>
       <button>Ordenar por <u>proximidade</u></button>
     </div>
 
-    <ul>
-      <li>
-
-        <div>
-          <img src="./img/profile.png" alt="Profile Picture" />
-          <header>
+    <ul class="list">
+      <li class="list__item">
+        <img src="./img/profile.png" alt="Profile Picture" class=image_prof />
+        <div class="list__item_content">
+          <div class="list__item_header">
             <h2>João Pereira</h2>
-
             <b> 4.5 (998 avaliações)</b>
-
             <strong>R$ 80</strong>
-
-          </header>
-
-          <footer>
+          </div>
+          <div class="list__item_footer">
             <button>Ver avaliações</button>
-            <button>Lavar meu carro</button>
-
-          </footer>
-
+            <button class="botao">Lavar meu carro</button>
+          </div>
         </div>
-
       </li>
 
-      <li>
-        <img src="" alt="" />
-
-        <div>
-          <header>
+      <li class="list__item">
+        <img src="./img/profile.png" alt="Profile Picture" class=image_prof />
+        <div class="list__item_content">
+          <div class="list__item_header">
             <h2>Joana Santos</h2>
-            <b>Nota 4.7 (489 avaliações)</b>
+            <b> 4.7 (489 avaliações)</b>
             <strong>R$ 75</strong>
-          </header>
-          <footer>
+          </div>
+          <div class="list__item_footer">
             <button>Ver avaliações</button>
-            <button>Lavar meu carro</button>
-          </footer>
+            <button class="botao">Lavar meu carro</button>
+          </div>
         </div>
-
       </li>
 
-      <li>
-        <img src="" alt="" />
-
-        <div>
-          <header>
-            <h2>Matheus Oliveira</h2>
-            <b>Nota 4.3 (783 avaliações)</b>
+      <li class="list__item">
+        <img src="./img/profile.png" alt="Profile Picture" class=image_prof />
+        <div class="list__item_content">
+          <div class="list__item_header">
+            <h2>Mateus Oliveira</h2>
+            <b> 4.3 (783 avaliações)</b>
             <strong>R$ 90</strong>
-          </header>
-          <footer>
+          </div>
+          <div class="list__item_footer">
             <button>Ver avaliações</button>
-            <button>Lavar meu carro</button>
-          </footer>
+            <button class="botao">Lavar meu carro</button>
+          </div>
         </div>
       </li>
 
-      <li>
-        <img src="" alt="" />
-        <div>
-          <header>
+      <li class="list__item">
+        <img src="./img/profile.png" alt="Profile Picture" class=image_prof />
+        <div class="list__item_content">
+          <div class="list__item_header">
             <h2>Pedro Sampaio</h2>
-            <b>Nota 4.1 (801 avaliações)</b>
+            <b> 4.1 (801 avaliações)</b>
             <strong>R$ 60</strong>
-          </header>
-          <footer>
+          </div>
+          <div class="list__item_footer">
             <button>Ver avaliações</button>
-            <button>Lavar meu carro</button>
-          </footer>
+            <button class="botao">Lavar meu carro</button>
+          </div>
         </div>
       </li>
-
-    </ul>
+          </ul>
   </main>
 
   <footer>
     <img src=" ./img/turingwash-logo.svg" alt="Logo Turing Wash" />
-
     <nav>
       <ul>
         <li>Sobre</li>

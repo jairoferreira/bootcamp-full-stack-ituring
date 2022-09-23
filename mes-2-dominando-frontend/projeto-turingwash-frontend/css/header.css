@@ -1,6 +1,26 @@
-.header {
-   
-    list-style-type: none;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
     background: #BCF7FF;
-    
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: #BCF7FF;
+}
+
+.header1 {
+     border: 1px solid red;     /* super dica */
+   
+}
+
+.footer1 {
+    background: #FFFFFF;
+
 }

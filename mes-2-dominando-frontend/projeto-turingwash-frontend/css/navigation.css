@@ -1,19 +1,82 @@
-.navbar {
-    background-color: aqua;
-    color: black;
+.nav__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-size: 16px;
-    
+    list-style: none;
+    border: 1px solid red;
+    /* super dica */
+    width: 300px;
+
 }
 
-.nav__list{
-    list-style-type: none;
+.main__item_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.36px;
 }
-.nav__list .__list_item {
-    display: inline-block;
-    padding: 20px 10px;
-    text-decoration: none;
-       
+
+.main__item_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    list-style: none;
+
+}
+
+.main__item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+background: blue;
+}
+
+.image_prof {
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.list__item_content{
+    flex: 1;
+
+}
+
+.list__item_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list__item_header h2 {
+
+    font-size: 16px;
+}
+
+.list__item_footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 20px;
 }

@@ -1,4 +1,6 @@
+@import url("./header.css");
 @import url("./navigation.css");
+@import url("./buttons.css");
 
 * {
     box-sizing: border-box;
@@ -6,8 +8,11 @@
     margin: 0;
 }
 
-:root {
-    --header-footer: #BCF7FF;
-    --fundo: #EAF7FF;
-    --branco: #fff;
-    --botao-fundo: #8FF2FF;
+body{
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    background: #EAF7FF;
+
+}
