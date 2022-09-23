@@ -3,10 +3,8 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    border: 1px solid red;
-    /* super dica */
+    /*border: 1px solid red; super dica */
     width: 300px;
-
 }
 
 .main__item_1 {
@@ -25,30 +23,28 @@
     align-items: flex-start;
     padding: 16px;
     list-style: none;
-
 }
 
 .main__item {
     display: flex;
     justify-content: left;
     align-items: center;
-background: blue;
+    background: blue;
 }
 
 .image_prof {
     height: 55px;
     width: 55px;
     border-radius: 0px;
-
 }
 
-.list{
+.list {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.list__item{
+.list__item {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,25 +54,30 @@ background: blue;
     border-radius: 10px;
 }
 
-.list__item_content{
+.list__item_content {
     flex: 1;
-
 }
 
-.list__item_header{
+.list__item_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .list__item_header h2 {
-
     font-size: 16px;
 }
 
-.list__item_footer{
+.list__item_footer {
     display: flex;
     justify-content: flex-end;
     gap: 12px;
     margin-top: 20px;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
 }
